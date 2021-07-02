@@ -23,7 +23,6 @@ npm start
 
 ## Use
 
-```
-navigate browswer to localhost:3000
-```
+Navigate browswer to localhost:3000
+
 
