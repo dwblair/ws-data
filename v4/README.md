@@ -1,18 +1,22 @@
+# example websockets
+
+## setup
+
 Assumes that a microcontroller is running Arduino:  Examples>Basics>AnalogReadSerial 
 
 (but modify the 'delay' to about 20 ms)
 
 and plugged into /dev/ttyACM0
 
-# install
+## install
 
 npm install 
 
-# run
+## run
 
 npm start
 
-# use
+## use
 
 navigate browswer to localhost:3000
 
