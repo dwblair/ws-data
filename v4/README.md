@@ -1,4 +1,4 @@
-# Example websockets
+# ADC - firmware - websockets
 
 
 ## setup
