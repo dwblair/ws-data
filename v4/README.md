@@ -11,16 +11,19 @@ and plugged into /dev/ttyACM0
 
 ## Install
 
-```npm install 
+```
+npm install 
 ```
 
 ## Run
 
-```npm start
+```
+npm start
 ```
 
 ## Use
 
-```navigate browswer to localhost:3000
+```
+navigate browswer to localhost:3000
 ```
 
