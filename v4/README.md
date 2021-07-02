@@ -1,7 +1,7 @@
 # ADC - firmware - websockets
 
 
-## setup
+## Setup
 
 Assumes that a microcontroller is running Arduino:  Examples>Basics>AnalogReadSerial 
 
@@ -9,16 +9,16 @@ Assumes that a microcontroller is running Arduino:  Examples>Basics>AnalogReadSe
 
 and plugged into /dev/ttyACM0
 
-## install
+## Install
 
-npm install 
+> npm install 
 
-## run
+## Run
 
-npm start
+> npm start
 
-## use
+## Use
 
-navigate browswer to localhost:3000
+> navigate browswer to localhost:3000
 
 
