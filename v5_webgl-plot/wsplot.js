@@ -1,4 +1,4 @@
-import {WebglPlot, ColorRGBA, WebglLine} from 'https://cdn.skypack.dev/webgl-plot';
+import { WebglPlot, ColorRGBA, WebglLine } from 'https://cdn.skypack.dev/webgl-plot';
 
 const canvas = document.getElementById("my_canvas");
 const devicePixelRatio = window.devicePixelRatio || 1;
@@ -11,8 +11,9 @@ const color = new ColorRGBA(
   1.0,
   1.0,
   1.0
-);
-var   line = new WebglLine(color, numX);
+); //cyan
+
+const line = new WebglLine(color, numX);
 const wglp = new WebglPlot(canvas);
 
 
@@ -36,11 +37,12 @@ function update() {
 }
 
 
+//
 var socket = io();
 
 socket.on('adc', function(msg) {
-    console.log(msg);
+    //console.log(msg);
     var y=parseInt(msg); 
-    line.shiftAdd([y/100.0]);
+    line.shiftAdd([2*y/100.0 - 1.0]);
   });
 
